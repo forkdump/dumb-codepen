@@ -18,7 +18,7 @@
     iframeComponent.writeln(`
       ${htmlField.innerText}
       <style>${cssField.innerText}</style>
-      <script>${jsField.innerText}</script>`);
+      <script type="text/babel">${jsField.innerText}</script>`);
     iframeComponent.close();
   }
 
